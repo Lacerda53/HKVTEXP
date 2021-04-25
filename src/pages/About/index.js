@@ -6,7 +6,7 @@ import { useHistory } from "react-router";
 
 export function About() {
     const history =useHistory();
-  const [services, setServices] = useState(1);
+  const [interests, setinterests] = useState([]);
   return (
     <Container>
       <h2>Sobre você</h2>
@@ -26,16 +26,16 @@ export function About() {
       <Card>
         <label htmlFor="name">Quais serviços você pode oferecer?</label>
         <input type="text" placeholder="Comidas e/ou bebidas para eventos" />
-        {services > 1 && (
+        {interests.map((item, index) => (
           <>
-            <input
+            <input key={index}
               type="text"
               placeholder="Comidas e/ou bebidas para eventos"
             />
-            <IoRemove onClick={()=>setServices(services-1)}/>
+            <IoRemove onClick={() => setinterests(interests.splice(1, index))} />
           </>
-        )}
-        <button onClick={() => setServices(services + 1)}>
+        ))}
+        <button onClick={() => setinterests([...interests, { value: 'new'}])}>
           <IoAddCircle size="2rem" style={{ marginRight: ".6rem" }} />
           Adicionar outro
         </button>

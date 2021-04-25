@@ -43,6 +43,7 @@ export const Card = styled.div`
       display:flex;
       margin: 0 auto;
       width: 50%;
+      padding: .5rem;
   }
   >button{
       margin-top: 1rem;
@@ -61,5 +62,5 @@ export const Footer = styled.div`
     width: 100%;
     bottom: 0;
     left: 0;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
 `;

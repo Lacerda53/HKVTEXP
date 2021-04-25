@@ -12,11 +12,21 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <title>Hackathon</title>
+  <link rel="stylesheet" type="text/css" href="dist/device-mockups.min.css">
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div class="device-wrapper">
+    <div class="device" data-device="iPhone5" data-orientation="portrait" data-color="black">
+      <div class="screen">
+        <div id="root"></div>
+      </div>
+      <div class="button">
+        <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

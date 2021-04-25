@@ -29,6 +29,7 @@ export const Card = styled.div`
       min-height: 3rem;
       padding: 1rem;
       font-size: 1rem;
+      margin-bottom: 1rem;
   }
   >button{
       margin-top: 1rem;
