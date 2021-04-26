@@ -1,4 +1,4 @@
-import { Container, Body } from './styles';
+import { Container} from './styles';
 import { Plan } from '../../components/Plan';
 import plano1 from '../../assets/amico.svg';
 import plano2 from '../../assets/rafiki.svg';
