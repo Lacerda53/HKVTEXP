@@ -1,5 +1,8 @@
 # IMPACTA
 
+#### OBS: ABRIR COM MODO RESPONSIVO PARA MOBILE NO BROWSER
+
+
 Olá! Nós somos o Time Rocket, meu nome é Bruna, sou a líder e UX designer do time e vou apresentar agora nossos integrantes.
 Guilherme é o desenvolvedor
 Luan é o marketeiro
