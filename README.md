@@ -2,7 +2,7 @@
 
 #### OBS: ABRIR COM MODO RESPONSIVO PARA MOBILE NO BROWSER
 
-Para executar o código, você precisa primeiro baixar todos os pacotes de dependência digitando `npm i` ou `yarn` no console, após isso você pode executar digitando `npm start` ou `yarn start`.
+#### Para executar o código, você precisa primeiro baixar todos os pacotes de dependência digitando `npm i` ou `yarn` no console, após isso você pode executar digitando `npm start` ou `yarn start`.
 
 
 Olá! Nós somos o Time Rocket, meu nome é Bruna, sou a líder e UX designer do time e vou apresentar agora nossos integrantes.
