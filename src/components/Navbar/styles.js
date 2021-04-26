@@ -13,7 +13,7 @@ export const Container = styled.div`
 
       >div{
         span{
-            color: var(--primary);
+            color: var(--rose);
             font-weight: bold;
         }
         p{
