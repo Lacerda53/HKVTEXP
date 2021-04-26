@@ -18,6 +18,7 @@ export function Routes() {
         <Route exact path="/interests" component={Interests} />
         <Route exact path="/home" component={Main} />
         <Route exact path="/profile" component={Main} />
+        <Route exact path="/plans" component={Main} />
       </Switch>
     </BrowserRouter>
   );
