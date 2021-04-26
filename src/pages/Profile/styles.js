@@ -27,10 +27,7 @@ export const Container = styled.div`
 `;
 
 export const Footer = styled.div`
-  position: absolute;
   width: 100%;
-  left: 0;
-  bottom: 0;
   padding: 2rem 1rem;
   
   button {
