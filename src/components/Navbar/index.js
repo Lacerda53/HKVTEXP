@@ -1,6 +1,6 @@
 import { Container } from "./styles";
-import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { IoMdNotificationsOutline } from "react-icons/io";
+import { IoHomeOutline } from "react-icons/io5";
 import { BiCoinStack } from "react-icons/bi";
 import { useHistory } from "react-router";
 
@@ -9,14 +9,14 @@ export function Navbar() {
   return (
     <Container>
       <div>
-        <HiOutlineMenuAlt1
+        <IoHomeOutline onClick={()=>history.push('/home')}
           size="2rem"
-          style={{ marginRight: ".8rem" }}
+          style={{ marginRight: ".8rem", cursor: 'pointer' }}
           color="var(--secondary)"
         />
         <IoMdNotificationsOutline size="2rem" color="var(--secondary)" />
       </div>
-      <div onClick={()=>history.push("/plans")}>
+      <div style={{cursor: 'pointer'}} onClick={()=>history.push("/plans")}>
         <BiCoinStack
           size="2rem"
           style={{ marginRight: ".5rem" }}
