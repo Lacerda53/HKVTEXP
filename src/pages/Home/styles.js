@@ -46,7 +46,6 @@ export const Card = styled.div`
   > div {
     display: flex;
     width: 100%;
-    overflow: scroll;
     padding-bottom: 1rem;
   }
   > p {
@@ -65,9 +64,9 @@ export const Header = styled.div`
   padding-bottom: 1rem;
   border-bottom: 1px solid #e0ebff;
 
-  > img {
-    width: 55%;
-    height: 55%;
+  >img {
+    width: 50%;
+    height: 50%;
   }
   > div {
     margin-left: 1rem;

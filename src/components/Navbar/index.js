@@ -7,15 +7,23 @@ export function Navbar() {
   return (
     <Container>
       <div>
-        <HiOutlineMenuAlt1 size="2rem" style={{marginRight: ".8rem"}} color="var(--secondary)"/>
+        <HiOutlineMenuAlt1
+          size="2rem"
+          style={{ marginRight: ".8rem" }}
+          color="var(--secondary)"
+        />
         <IoMdNotificationsOutline size="2rem" color="var(--secondary)" />
       </div>
       <div>
-      <BiCoinStack size="2rem" style={{marginRight: ".5rem"}} color="var(--secondary)" />
-      <div>
+        <BiCoinStack
+          size="2rem"
+          style={{ marginRight: ".5rem" }}
+          color="var(--secondary)"
+        />
+        <div>
           <span>2.000</span>
           <p>moedas</p>
-      </div>
+        </div>
       </div>
     </Container>
   );
